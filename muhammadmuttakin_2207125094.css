@@ -1,0 +1,49 @@
+body {
+	font-family: Arial, sans-serif; 
+	line-height: 1.6; 
+	background-color:#f4f4f4;
+	padding: 20px;
+
+}
+
+.container {
+	max-width: 800px; 
+	margin: auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+	text-align: center; 
+	margin-bottom: 20px;
+}
+
+h1 {
+	margin-bottom: 10px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li:before {
+	content:''\(2022"; /* Bullet point */
+	color: #007bff; /* Bullet point color */
+	display: inline-block;
+	width: 1em; 
+	margin-left:- 1em;
+}
+
+p {
+	color: #666;
+}
